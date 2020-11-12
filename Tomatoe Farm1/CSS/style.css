@@ -1,0 +1,1100 @@
+@media sreen and (max-width: 400px) {
+    body {
+        max-width: 350px;
+    }
+    div.container2 div.theme-container {
+        width: 20px;
+        height: 29px;
+    }
+    div.theme-container div.color-container { 
+        width: 30px;
+        height: 5px;
+    }
+
+}
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+div.container1 {
+    padding: 0;
+    margin: 0;
+}
+div.container2 {
+    margin: 0;
+}
+div.container2 div.theme-container {
+    position: absolute;
+    background-color: #100F0F;
+    width: 1250px;
+    height: 59px;
+    margin: 0;
+}
+div.theme-container div.color-container {
+    position: absolute;
+    width: 85px;
+    height: 18px;
+    left: 18px;
+    top: 13px;
+    display: flex;
+}
+div.theme-container div.color-container div.red {
+    background-color: orangered;
+    width: 9px;
+    height: 2px;
+    border-radius: 15px;
+    padding: 13px;
+    margin: 2px;
+}
+div.theme-container div.yellow {
+    background-color: yellow;
+    width: 9px;
+    height: 2px;
+    border-radius: 15px;
+    padding: 13px;
+    margin: 2px;
+}
+div.theme-container div.green {
+    width: 9px;
+    height: 2px;
+    border-radius: 15px;
+    padding: 13px;
+    margin: 2px;
+    background-color: yellowgreen;
+}
+div.container2 div.logo-container {
+    position: absolute;
+    background: #A7CB8B;
+    width: 1250px;
+    height: 58px;
+    margin-left: 0px;
+    margin-top: 59px;
+}
+div.container2 div.logo-container div.logo {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 14px;
+    top: 5px;
+    background: #A7CB8B; 
+}
+div.logo-container div.logo img {
+    height: 60px;
+}
+ul {
+    list-style-type: none;
+    margin-left: 470px;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    display: inline;
+    margin: 30px;
+}
+li a {
+    text-decoration: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.8);
+}
+div.user {
+    position: absolute;
+    left: 91.88%;
+    right: 4.80%;
+    top: 1.84%;
+    bottom: 96.98%;
+    background: rgba(0, 0, 0, 0.54);
+}
+div.user i {
+    font-size: 64px;
+}
+div.container2 div.bg-image {
+    position: absolute;
+    width: 1250px;
+    height: 583px;
+    margin-left: 0px;
+    margin-top: 117px;
+    background: rgba(30, 30, 30, 0.35) url(../Images/tomato-field2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.bg-image div.intro div.stay {
+    position: absolute;
+    width: 486px;
+    height: 141px;
+    margin-top: 109px;
+    margin-left: 89px;
+}
+div.bg-image div.intro div.stay h2 {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+div.intro div.global {
+    position: absolute;
+    width: 589px;
+    height: 147px;
+    margin-left: 85px;
+    margin-top: 263px;
+}
+div.intro div.global p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+div.intro div.more {
+    position: absolute;
+    width: 286.19px;
+    height: 72.16px;
+    left: 85px;
+    top: 418px;
+    background: #CB6C04;
+    border-radius: 20px;
+}
+div.intro div.more button.l-more {
+    position: absolute;
+    width: 247.05px;
+    margin-left: 10px; 
+    margin-top: 20px;
+    background: #CB6C04;
+    border: none;
+}
+div.more button.l-more a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/* div.bg-white {
+    background-color: #E5E5E5;
+} */
+div.bg-white div.welcome {
+    position: absolute;
+    width: 1032px;
+    height: 98px;
+    left: 140px;
+    top: 748px;
+} 
+div.bg-white div.welcome p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #23241F;
+} 
+div.bg-white div.tomatoe-icon {
+    position: absolute;
+    width: 221.35px;
+    height: 185.76px;
+    left: 393px;
+    top: 900px;
+    background: #FFFFFF;
+    border: 3px solid #CB6C04;
+    box-sizing: border-box;
+}
+div.bg-white div.tomatoe-icon img {
+    position: absolute;
+    width: 57.12px;
+    height: 57.72px;
+    left: 80px;
+    top: 11px;
+}
+div.bg-white div.tomatoe-icon div.buy {
+    position: absolute;
+    width: 179.1px;
+    height: 56.53px;
+    left: 20px;
+    top: 110px;
+    background: #100F0F;
+}
+div.tomatoe-icon div.buy button.tomato {
+    position: absolute;
+    width: 159.24px;
+    height: 30px;
+    left: 12px;
+    top: 14px;
+    background-color: #100F0F;
+    border: none;
+}
+div.buy button.tomato a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+div.bg-white div.groundnut-icon {
+    position: absolute;
+    width: 221.35px;
+    height: 185.76px;
+    left: 693px;
+    top: 900px;
+    background: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+}
+div.bg-white div.groundnut-icon img {
+    position: absolute;
+    width: 65.45px;
+    height: 65.45px;
+    left: 80px;
+    top: 11px;
+}
+div.groundnut-icon div.nut {
+    position: absolute;
+    width: 179.1px;
+    height: 56.53px;
+    left: 20px;
+    top: 110px;
+    background: #100F0F;
+}
+div.groundnut-icon div.nut button {
+    position: absolute;
+    width: 159.24px;
+    height: 30px;
+    left: 12px;
+    top: 14px;
+    background-color: #100F0F;
+    border: none;
+}
+div.nut button a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none; 
+}
+/* About Us */
+div.m-about {
+    padding: 0;
+}
+div.m-about div.img-division {
+    position: absolute;
+    width: 719px;
+    height: 456px;
+    left: 50px;
+    top: 180px;
+    background-image: url(../Images/buckets-tomato.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.m-about div.about div.heading {
+    position: absolute;
+    width: 244px;
+    height: 44px;
+    left: 862px;
+    top: 221px;
+}
+div.heading h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #000000;
+}
+div.about div.about-text {
+    position: absolute;
+    width: 414px;
+    height: 200px;
+    left: 791px;
+    top: 300px;
+}
+div.about-text p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+div.bg-groundnut {
+    position: absolute;
+    width: 1290px;
+    height: 396px;
+    left: -29px;
+    top: 690px;
+    background: #CB6C04;
+}
+/* Products page */
+div.m-products {
+    padding-bottom: 0;
+}
+div.m-products div.tomatoes-3 {
+    width: 100px;
+    height: 600px;
+    left: 100px;
+    top: 400px;
+}
+div.m-products div.tomatoes-3 div.half-tomato {
+    position: absolute;
+    width: 200px;
+    height: 89px;
+    left: 56px;
+    top: 202px;
+}
+div.half-tomato img {
+    width: 200px;
+}
+div.m-products div.tomatoes-3 div.ripe-tomato {
+    position: absolute;
+    width: 77px;
+    height: 90px;
+    left: 57px;
+    top: 400px;
+}
+div.ripe-tomato img {
+    width: 180px;
+    height: 200px;
+}
+div.m-products div.tomatoes-3 div.red-tomatoes {
+    position: absolute;
+    width: 77px;
+    height: 89px;
+    left: 56px;
+    top: 539px;
+}
+div.red-tomatoes img {
+    width: 200px;
+}
+div.m-products div.t-bunch {
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background: url(../Images/tomatoe-bunch.jpeg); */
+    position: absolute;
+    width: 564px;
+    height: 664px;
+    left: 236px;
+    top: 152px;
+    bottom: 20px;
+}
+div.t-bunch img {
+    height: 550px;
+    width: 600px;
+}
+div.t-information div.t-title {
+    position: absolute;
+    width: 173px;
+    height: 48px;
+    left: 853px;
+    top: 155px;
+}
+div.t-information div.t-title h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+}
+div.t-information div.t-text {
+    position: absolute;
+    width: 403px;
+    height: 121px;
+    left: 860px;
+    top: 230px;
+}
+div.t-information div.t-text p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+    text-align: justify;
+}
+div.t-information div.t-black {
+    position: absolute;
+    width: 363px;
+    height: 40px;
+    left: 857px;
+    top: 381px;
+    background: #23241F;
+}
+div.t-black div.quantity {
+    position: absolute;
+    width: 153px;
+    height: 44px;
+    left: 90px;
+    top: 0;
+}
+div.t-black div.quantity h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1px;
+    text-align: center;
+    color: #FFFFFF;
+}
+div.t-black div.down {
+    position: absolute;
+    left: 85%;
+    right: 25%;
+    top: 38.56%;
+    bottom: 34.56%;
+    background: rgba(255, 255, 255, 0.54);
+}
+div.t-black div.down button {
+    background-color:  #23241F;
+    border: none;
+}
+div.t-black2 {
+    position: absolute;
+    width: 363px;
+    height: 40px;
+    left: 857px;
+    top: 546px;
+    background: #23241F;
+}
+div.t-black2 div.inform {
+    position: absolute;
+    width: 147.58px;
+    height: 44px;
+    left: 90px;
+    top: 1px;
+} 
+div.t-black2 div.inform h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1px;
+    text-align: center;
+    color: #FFFFFF;
+}
+div.t-black2 div.down1 {
+    position: absolute;
+    left: 85%;
+    right: 25%;
+    top: 34.56%;
+    bottom: 34.56%;
+    background: rgba(255, 255, 255, 0.54);
+}
+div.t-black2 div.down1 button {
+    background-color:  #23241F;
+    border: none;
+}
+div.down div.coll {
+    background-color: #FFFFFF;
+    display: none;
+    overflow: hidden;
+} 
+div.down1 div.coll {
+    background-color: #FFFFFF;
+    display: none;
+    overflow: hidden;
+}
+div.coll div.kilo div.kilo-title {
+    position: absolute;
+    width: 104px;
+    height: 19px;
+    left: -320px;
+    top: 20px;
+}
+div.kilo-title h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+div.kilo-bg input {
+    position: absolute;
+    width: 150px;
+    height: 32.38px;
+    top: 64px;
+    left: -310px;
+    background:  #23241F;
+    border: none;
+    border-radius: 20px;
+}
+
+div.basket div.basket-title {
+    position: absolute;
+    width: 84px;
+    height: 19px;
+    left: -95px;
+    top: 27px;
+}
+div.basket div.basket-title h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.33);
+} 
+ div.basket div.basket-bg {
+    position: absolute;
+    width: 150px;
+    height: 32.38px;
+    left: -95px;
+    top: 64px;
+    border-radius: 20px;
+}
+div.basket-bg input {
+    position: absolute;
+    width: 150px;
+    height: 32.38px;
+    left: 5px;
+    top: 1px;
+    background: rgba(35, 36, 31, 0.5);
+    border-radius: 20px;
+    border: none;
+}
+div.coll form div.amount {
+    position: absolute;
+    width: 127px;
+    height: 26px;
+    left: -50px;
+    top: 198px;
+}
+div.coll form div.total {
+    position: absolute;
+    width: 27px;
+    height: 26px;
+    left: 5px;
+    top: 228px;
+}
+div.amount p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+} 
+div.down1 div.coll form label {
+    position: absolute;
+    width: 195px;
+    height: 26px;
+    left: -335px;
+    top: 38px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+div.down1 div.coll form label.label2 {
+    top: 110px;
+}
+div.down1 div.coll form input.margin {
+    position: absolute;
+    width: 356px;
+    height: 30px;
+    left: -649px;
+    top: 65px;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 15px
+}
+div.down1 div.coll form input.input2 {
+    top: 140px;
+}
+div.down1 div.coll form button{
+    position: absolute;
+    width: 243px;
+    height: 40px;
+    left: -209px;
+    top: 274px;
+    background: #A7CB8B;
+    border-radius: 15px;
+}
+div.down1 div.coll form button a {
+    text-decoration: none;
+    color: #23241F;
+    font-style: normal;
+    font-weight: normal;
+}
+/* Checkout page */
+div.customer-info div.customer-title {
+    position: absolute;
+    width: 212px;
+    height: 48px;
+    left: 50px;
+    top: 115px;
+}
+div.customer-info div.customer-title p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+}
+div.customer-info form input {
+    position: absolute;
+    width: 385px;
+    height: 34px;
+    left: 59px;
+    top: 212px;
+    background: rgba(208, 208, 208, 0.26);
+    border: 1px solid rgba(210, 210, 210, 0.25);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+div.customer-info form input.input1 {
+    top: 262px;
+}
+div.customer-info form input.input2 {
+    top: 312px;
+}
+div.customer-info form input.input3 {
+    top: 362px;
+}
+div.customer-info form input.input4 {
+    top: 412px;
+}
+div.customer-info form input.input5 {
+    top: 462px;
+}
+div.ship-info div.ship {
+    position: absolute;
+    width: 562px;
+    height: 48px;
+    left: 488px;
+    top: 123px;
+}
+div.ship-info div.ship h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: left;
+    color: #000000;
+}
+div.ship-info div.ship p {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.41);
+}
+div.ship-select div.ship-uber {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 491px;
+    top: 266px;
+}
+div.ship-select div.ship-uber div.uber {
+    position: absolute;
+    width: 76px;
+    height: 79px;
+    left: -5px;
+    top: 31px;
+}
+div.ship-select div.ship-uber div.uber img {
+    width: 100px;
+}
+div.ship-select div.ship-kwik {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 594px;
+    top: 266px;
+}
+div.ship-select div.ship-kwik div.kwik {
+    position: absolute;
+    width: 76px;
+    height: 79px;
+    left: 14px;
+    top: 31px;
+}
+div.ship-select div.ship-kwik div.kwik img {
+    width: 100px;
+}
+div.ship-select div.ship-courier {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 720px;
+    top: 266px;
+}
+div.ship-select div.ship-courier div.courier {
+    position: absolute;
+    width: 106px;
+    height: 100px;
+    left: 6px;
+    top: 31px;
+    border: 1px rgba(196, 196, 196, 0.47) solid;
+}
+div.ship-select div.ship-courier div.courier img {
+    width: 100px;
+}
+div.ship-select div.ship-mr {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 848px;
+    top: 266px;
+}
+div.ship-select div.ship-mr div.mr {
+    position: absolute;
+    width: 126px;
+    height: 129px;
+    left: 13px;
+    top: 31px;
+}
+div.ship-select div.ship-mr div.mr img {
+    width: 150px;
+    height: 100px;
+}
+div.ship-info div.proceed {
+    position: absolute;
+    width: 243px;
+    height: 40px;
+    left: 609px;
+    top: 474px;
+    background: #A7CB8B;
+    border-radius: 15px;
+}
+div.ship-info div.proceed button {
+    margin-top: 10px;
+    margin-left: 35px;
+    background-color: #A7CB8B;
+    border: none;
+}
+div.ship-info div.proceed button a {
+    text-decoration: none;
+    color: #23241F;
+    font-size: 15px;
+}
+/* Payments page */
+div.payment-info div.payment-title {
+    position: absolute;
+    width: 330px;
+    height: 48px;
+    left: 62px;
+    top: 135px;
+}
+div.payment-info div.payment-title h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 32px;
+    color: #000000;
+}
+div.payment-info div.payment-title p {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.41);
+}
+div.payment-info div.pay-bg {
+    position: absolute;
+    width: 458px;
+    height: 37px;
+    left: 62px;
+    top: 249px;
+    background: #23241F;
+}
+div.payment-info div.pay-bg div.pay {
+    position: absolute;
+    width: 180px;
+    height: 44px;
+    left: 101px;
+    top: -20px;
+}
+div.payment-info div.pay-bg div.pay p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+div.pay-bg div.down {
+    position: absolute;
+    left: 85%;
+    right: 25%;
+    top: 27.56%;
+    bottom: 39.56%;
+}
+div.pay-bg div.down button {
+    background-color:  #23241F;
+    border: none;
+}
+div.down div.coll div.transfer div.transfer-select {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: -360px;
+    top: 63px;
+}
+div.transfer div.transfer-bg {
+    position: absolute;
+    width: 160px;
+    height: 129px;
+    left: -360px;
+    top: 98px;
+    background: #CB6C04;
+}
+div.transfer div.transfer-bg h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+div.pos div.pos-select {
+    position: absolute;
+    top: 63px;
+    left: -120px;
+}
+div.pos div.pos-bg {
+    position: absolute;
+    width: 160px;
+    height: 129px;
+    top: 98px;
+    left: -120px;
+    background: #CB6C04
+}
+div.pos div.pos-bg h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+div.payment-info div.online-bg {
+    position: absolute;
+    width: 458px;
+    height: 37px;
+    left: 62px;
+    top: 489px;
+    background: #23241F;
+}
+div.payment-info div.online-bg div.online {
+    position: absolute;
+    width: 180px;
+    height: 44px;
+    left: 131px;
+    top: -20px;
+}
+div.payment-info div.online-bg div.online p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+div.online-bg div.down1 {
+    position: absolute;
+    left: 85%;
+    right: 25%;
+    top: 27.56%;
+    bottom: 39.56%;
+}
+div.online-bg div.down1 button {
+    background-color:  #23241F;
+    border: none;
+}
+div.coll div.card-heading {
+    position: absolute;
+    width: 345px;
+    height: 50px;
+    left: 50px;
+    top: -1px;
+    background: #A7CB8B;
+    border-radius: 10px 10px 0px 0px;
+}
+div.coll div.card-heading div.circle-container {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 26px;
+    top: 13px;
+    background: #23241F;
+    border-radius: 50px;
+}
+div.card-heading div.card {
+    position: absolute;
+    width: 146px;
+    height: 32px;
+    left: 40px;
+    top: -10px;
+}
+div.card-heading div.card h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.24);
+}
+div.down1 div.coll form input{
+    position: absolute;
+    width: 685px;
+    height: 54px;
+    left: 57px;
+    top: 619px;
+    margin-top: 10px;
+    margin-left: 350px;
+    background: rgba(208, 208, 208, 0.26);
+    border: 1px solid rgba(210, 210, 210, 0.25);
+    box-sizing: border-box;
+} 
+div.coll form input.input1 {
+    margin-top: 60px;
+}
+div.coll form input.input2 {
+    margin-top: 30px;
+}
+div.online-bg div.down1 div.coll {
+    position: absolute;
+    width: 465px;
+    height: 363px;
+    left: -387px;
+    top: 61px;
+    background: rgba(208, 208, 208, 0.26);
+    border: 1px solid rgba(210, 210, 210, 0.25);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+div.coll div.paypal-select {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: -153px;
+    top: 140px;
+}
+div.coll div.paypal-select input {
+    width: 10px;
+}
+div.coll form div.paypal-img {
+    position: absolute;
+    width: 86px;
+    height: 86px;
+    left: 56px;
+    top: 264px;
+}
+div.coll form div.paypal-img img {
+    width: 70px;
+}
+div.coll form div.visa-select {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: -60px;
+    top: 137px;
+}
+div.coll form div.visa-img {
+    position: absolute;
+    width: 86px;
+    height: 86px;
+    left: 136px;
+    top: 264px;
+}
+div.coll form div.visa-img img {
+    width: 70px;
+}
+div.coll form div.master-select {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 30px;
+    top: 137px;
+}
+div.coll form div.master-img {
+    position: absolute;
+    width: 86px;
+    height: 86px;
+    left: 216px;
+    top: 280px;
+}
+div.coll form div.master-img img {
+    width: 70px;
+}
+div.coll form div.verve-select {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 100px;
+    top: 137px;
+}
+div.coll form div.verve-img {
+    position: absolute;
+    width: 86px;
+    height: 86px;
+    left: 316px;
+    top: 300px;
+}
+div.coll form div.verve-img img {
+    width: 70px;
+}
+div.container1 div.x-vector {
+    position: absolute;
+    width: 338px;
+    height: 338px;
+    left: 902px;
+    top: 136px;
+    background: #C4C4C4;
+}
+div.container1 div.x-vector p {
+    font-family: Roboto;
+    font-size: 500px;
+    margin-top: -120px;
+    font-weight: 100;
+    font-style: normal;
+}
+div.container1 div.check {
+    position: absolute;
+    width: 183px;
+    height: 40px;
+    left: 969px;
+    top: 510px;
+    background: #A7CB8B;
+    border-radius: 15px;
+}
+div.container1 div.check button {
+    background-color:  #A7CB8B;
+    border: none;
+    margin-top: 10px;
+    margin-left: 50px;
+}
